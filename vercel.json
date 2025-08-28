@@ -1,0 +1,12 @@
+{
+  "build": {
+    "env": {
+      "NUXT_MEMORY_LIMIT": "4096"
+    }
+  },
+  "functions": {
+    "api/**/*.js": {
+      "memory": 2048
+    }
+  }
+}
