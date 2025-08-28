@@ -37,6 +37,15 @@ export default defineNuxtConfig({
       }
     ],
   },
+  content: {
+
+  },
+  nitro: {
+    prerender: {
+      crawlLinks: false,
+      routes: [],
+    },
+  },
   app: {
     head: {
       title: 'idantity.me',
