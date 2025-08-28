@@ -42,7 +42,7 @@ const romanianProgress = ref(25)
         align-items="center"
         justify-content="center"
       >
-        <img src="/images/people/daniel-marchi.webp" alt="Daniel Marchi" class="rounded-full h-48 w-48"/>
+        <NuxtImg src="https://ciaawgwwdr7itajy.public.blob.vercel-storage.com/images/people/daniel-marchi.webp" alt="Daniel Marchi" class="rounded-full h-48 w-48"/>
         <h1 class="text-white">Daniel Marchi</h1>
         <RLLayoutBox
           direction="horizontal"
@@ -151,7 +151,7 @@ const romanianProgress = ref(25)
               <RLProgress v-model="spanishProgress" />
             </RLLayoutBox>
           </li>
-          <li>
+          <li class="hidden">
             <RLLayoutBox
                 direction="vertical"
                 gap="sm"
@@ -221,7 +221,58 @@ const romanianProgress = ref(25)
         tag="section"
         padding="lg"
         gap="lg"
-        class="bg-neutral-900 border-1 border-primary-500 p-lg"
+        class="bg-neutral-900 border-1 border-primary-500"
+      >
+        <RLLayoutBox
+          direction="vertical"
+          gap="md"
+        >
+          <RLLayoutBox
+            direction="horizontal"
+            gap="md"
+            align-items="center"
+          >
+            <RLIcon name="general:user" size="md" color=""/>
+            <h2 class="text-white">Projects</h2>
+          </RLLayoutBox>
+          <RLSeparator/>
+        </RLLayoutBox>
+        <h3>Websites</h3>
+        <RLLayoutBox
+          direction="horizontal"
+          gap="lg"
+          justify-content="between"
+        >
+          <RLPlaceholder class="w-full h-64"/>
+          <RLPlaceholder class="w-full h-64"/>
+          <RLPlaceholder class="w-full h-64"/>
+        </RLLayoutBox>
+        <h3>Games</h3>
+        <RLLayoutBox
+          direction="horizontal"
+          gap="lg"
+          justify-content="between"
+        >
+          <RLPlaceholder class="w-full h-64"/>
+          <RLPlaceholder class="w-full h-64"/>
+          <RLPlaceholder class="w-full h-64"/>
+        </RLLayoutBox>
+        <h3>Designs</h3>
+        <RLLayoutBox
+          direction="horizontal"
+          gap="lg"
+          justify-content="between"
+        >
+          <RLPlaceholder class="w-full h-64"/>
+          <RLPlaceholder class="w-full h-64"/>
+          <RLPlaceholder class="w-full h-64"/>
+        </RLLayoutBox>
+      </RLLayoutBox>
+      <RLLayoutBox
+        tag="section"
+        padding="lg"
+        gap="lg"
+        class="bg-neutral-900 border-1 border-primary-500"
       >
         <RLLayoutBox
             direction="vertical"

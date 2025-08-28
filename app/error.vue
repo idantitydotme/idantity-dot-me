@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import type { NuxtError } from '#app'
+import RLLayoutBox from "~/components/temp/RLLayoutBox.vue";
 
 const props = withDefaults(
     defineProps<{
@@ -40,7 +41,7 @@ const handleError = () => {
           justify-content="center"
       >
         <RLImage
-            src="/not-found.webp"
+            src="https://ciaawgwwdr7itajy.public.blob.vercel-storage.com/images/logos/logomark-white.webp"
             alt="Mascot - Page Not Found"
             :width="512"
             :height="512"
@@ -63,12 +64,9 @@ const handleError = () => {
           <span v-else>Please try again later. If the issue persists, contact support.</span>
         </p>
         <RLButton
-            variant="primary"
-            size="md"
-            text="Go to Homepage"
-            aria-label="Go to Homepage"
+            variant="solid"
             @click="handleError"
-        />
+        >Go to Homepage</RLButton>
       </RLLayoutBox>
   </NuxtLayout>
 </template>

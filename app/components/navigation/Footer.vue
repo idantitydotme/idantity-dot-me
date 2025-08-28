@@ -12,7 +12,7 @@ import RLLayoutBox from "~/components/temp/RLLayoutBox.vue";
       class="bg-primary-900"
   >
     <NuxtLink to="/">
-      <img src="/images/logos/logotype-white.webp" alt="idantity.me Logo" class="h-12"
+      <img src="https://ciaawgwwdr7itajy.public.blob.vercel-storage.com/images/logos/logotype-white.webp" alt="idantity.me Logo" class="h-12"
       />
     </NuxtLink>
     <span class="text-sm text-white text-center">

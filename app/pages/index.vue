@@ -16,7 +16,7 @@ useHead({
         align-items="center"
         class="py-12"
     >
-      <img src="/images/logos/logomark-white.webp" alt="idantity.me Logo" class="h-96 w-96"/>
+      <NuxtImg src="https://ciaawgwwdr7itajy.public.blob.vercel-storage.com/images/logos/logomark-white.webp" alt="idantity.me Logo" class="h-96"/>
       <h1 class="text-6xl font-bold">Sharing a bit of me.</h1>
     </RLLayoutBox>
   </RLLayoutBox>
