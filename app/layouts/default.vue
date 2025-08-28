@@ -1,7 +1,6 @@
 <script setup lang="ts">
 import { useHead, useRoute } from '#app';
 import { computed } from 'vue';
-import Header2 from "~/components/navigation/Header2.vue";
 import Footer from "~/components/navigation/Footer.vue";
 import RLLayoutBox from "~/components/temp/RLLayoutBox.vue";
 import RLScrollToTop from "~/components/temp/RLScrollToTop.vue";
