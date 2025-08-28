@@ -1,9 +1,9 @@
 <script setup lang="ts">
 import { useHead, useRoute } from '#app';
 import { computed } from 'vue';
+import type { NavigationMenuItem } from '@nuxt/ui'
 import Footer from "~/components/navigation/Footer.vue";
 import RLLayoutBox from "~/components/temp/RLLayoutBox.vue";
-import RLScrollToTop from "~/components/temp/RLScrollToTop.vue";
 import RLCookieBanner from "~/components/temp/RLCookieBanner.vue";
 
 const route = useRoute();
@@ -22,8 +22,6 @@ useHead({
   },
 });
 
-import type { NavigationMenuItem } from '@nuxt/ui'
-
 const items = ref<NavigationMenuItem[]>([
   {
     to: '/',
@@ -40,7 +38,6 @@ const items = ref<NavigationMenuItem[]>([
   {
     label: 'me.portfolio',
     to: '/portfolio',
-    active: true,
   },
   {
     label: 'me.about',
@@ -65,7 +62,6 @@ const items = ref<NavigationMenuItem[]>([
       <slot />
     </RLLayoutBox>
     <Footer />
-    <RLScrollToTop/>
     <RLCookieBanner cookie-policy-link="/documents/cookie-policy" />
   </RLLayoutBox>
 </template>

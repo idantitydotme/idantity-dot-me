@@ -60,18 +60,8 @@ const hideBanner = () => {
         direction="horizontal"
         gap="md"
       >
-        <RLButton
-          variant="primary"
-          text="Accept All"
-          aria-label="Accept All"
-          @click="hideBanner"
-        />
-        <RLButton
-          variant="primary"
-          text="Reject All"
-          aria-label="Reject All"
-          @click="hideBanner"
-        />
+        <RLButton variant="solid" color="primary" @click="hideBanner">Accept All</RLButton>
+        <RLButton variant="solid" color="error" @click="hideBanner">Reject All</RLButton>
       </RLLayoutBox>
     </RLLayoutBox>
   </RLLayoutBox>
