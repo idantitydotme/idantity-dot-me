@@ -28,13 +28,13 @@ const romanianProgress = ref(25)
   <RLLayoutBox
     direction="horizontal"
     gap="xl"
-    class="max-w-[1440px] mt-12 mb-12"
+    class="max-w-512 mt-12 mb-12"
   >
     <RLLayoutBox
       direction="vertical"
       padding="lg"
       gap="lg"
-      class="w-full h-fit bg-neutral-900 border-1 border-primary-500"
+      class="w-[320px] h-fit bg-neutral-900 border-1 border-primary-500"
     >
       <RLLayoutBox
         direction="vertical"
@@ -42,7 +42,7 @@ const romanianProgress = ref(25)
         align-items="center"
         justify-content="center"
       >
-        <NuxtImg src="/images/daniel-marchi.webp" alt="Daniel Marchi" class="rounded-full h-48 w-48"/>
+        <NuxtImg src="/people/daniel-marchi.webp" alt="Daniel Marchi" class="rounded-full h-48 w-48"/>
         <h1 class="text-white">Daniel Marchi</h1>
         <RLLayoutBox
           direction="horizontal"
@@ -215,7 +215,7 @@ const romanianProgress = ref(25)
     <RLLayoutBox
       direction="vertical"
       gap="xl"
-      class="max-w-[1280px]"
+      class="w-full max-w-[1280px]"
     >
       <RLLayoutBox
         tag="section"
@@ -247,33 +247,9 @@ const romanianProgress = ref(25)
             gap="lg"
             justify-content="between"
         >
-          <RLCard variant="subtle" class="flex-1">
-            <template #header>
-              <RLLayoutBox direction="horizontal" gap="sm" align-items="center" n>
-                <RLIcon name="general:sprout" size="md" class="fill-white"/>
-                <h5>Longevity</h5>
-              </RLLayoutBox>
-            </template>
-            <p>Game systems should be able to maintain their relevance across multiple years of a game's existence, meaning ease of expandability.</p>
-          </RLCard>
-          <RLCard variant="subtle" class="flex-1">
-            <template #header>
-              <RLLayoutBox direction="horizontal" gap="sm" align-items="center" n>
-                <RLIcon name="general:settings" size="md" class="fill-white"/>
-                <h5>Accessibility</h5>
-              </RLLayoutBox>
-            </template>
-            <p>Game systems should include in-game learning material, as many settings as possible for users to tweak them to their liking, and accessbility features for disabilities when applicable.</p>
-          </RLCard>
-          <RLCard variant="subtle" class="flex-1">
-            <template #header>
-              <RLLayoutBox direction="horizontal" gap="sm" align-items="center" n>
-                <RLIcon name="general:handshake" size="md" class="fill-white"/>
-                <h5>Narrative & Gameplay Cohesion</h5>
-              </RLLayoutBox>
-            </template>
-            <p>Game systems should be cohesive with the game's theme, either enabling or enhancing the fantasy being conveyed. This includes tying monetization systems with narrative and gameplay, but without associating tangible gameplay benefits to real money purchases.</p>
-          </RLCard>
+          <RLPlaceholder class="w-full h-64"/>
+          <RLPlaceholder class="w-full h-64"/>
+          <RLPlaceholder class="w-full h-64"/>
         </RLLayoutBox>
       </RLLayoutBox>
       <RLLayoutBox

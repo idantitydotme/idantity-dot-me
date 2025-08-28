@@ -37,6 +37,18 @@ export default defineNuxtConfig({
       }
     ],
   },
+  image: {
+    dir: 'assets/images',
+    provider: 'ipx',
+    format: ['webp'],
+    screens: {
+      xs: 320,
+      sm: 640,
+      md: 768,
+      lg: 1024,
+      xl: 1280
+    }
+  },
   content: {
 
   },
