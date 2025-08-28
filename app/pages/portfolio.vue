@@ -42,7 +42,7 @@ const romanianProgress = ref(25)
         align-items="center"
         justify-content="center"
       >
-        <NuxtImg src="/people/daniel-marchi.webp" alt="Daniel Marchi" class="rounded-full h-48 w-48"/>
+        <img src="/images/people/daniel-marchi.webp" alt="Daniel Marchi" class="rounded-full h-48 w-48"/>
         <h1 class="text-white">Daniel Marchi</h1>
         <RLLayoutBox
           direction="horizontal"
