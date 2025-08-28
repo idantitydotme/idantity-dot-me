@@ -3,7 +3,7 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "build": "nuxt build",
+    "build": "set NODE_OPTIONS=--max-old-space-size=8192 && nuxi build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
@@ -15,7 +15,6 @@
     "@nuxt/ui": "^3.3.2",
     "@vercel/blob": "^1.1.1",
     "better-sqlite3": "^12.2.0",
-    "ipx": "^3.1.1",
     "nuxt": "^4.0.3",
     "typescript": "^5.9.2",
     "vue": "^3.5.20",

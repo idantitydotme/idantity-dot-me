@@ -2,7 +2,7 @@
 @import "@nuxt/ui";
 
 @theme static {
-    --font-sans: 'Noto Sans', sans-serif;
+  --font-sans: 'Noto Sans', sans-serif;
 
   --breakpoint-xs: 320px;
   --breakpoint-sm: 640px;
