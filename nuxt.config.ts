@@ -43,11 +43,8 @@ export default defineNuxtConfig({
   nitro: {
     prerender: {
       crawlLinks: false,
-      routes: []
-    }
-  },
-  image: {
-    provider: 'ipx',
+      routes: [],
+    },
   },
   app: {
     head: {
