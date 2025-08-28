@@ -232,7 +232,7 @@ const romanianProgress = ref(25)
               gap="md"
               align-items="center"
           >
-            <RLIcon name="general:wrench" size="md" color=""/>
+            <RLIcon name="general:user" size="md" color=""/>
             <h2 class="text-white">Skills</h2>
           </RLLayoutBox>
           <RLSeparator/>
