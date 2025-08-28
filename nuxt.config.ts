@@ -20,15 +20,13 @@ export default defineNuxtConfig({
   },
   icon: {
     provider: 'server',
+    class: 'icon',
+    size: '24px',
+    mode: 'svg',
     customCollections: [
       {
         prefix: 'logos',
         dir: './app/assets/icons/logos',
-        normalizeIconName: false,
-      },
-      {
-        prefix: 'general',
-        dir: './app/assets/icons/general',
         normalizeIconName: false,
       },
       {

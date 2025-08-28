@@ -49,7 +49,7 @@ const romanianProgress = ref(25)
           gap="xs"
           align-items="center"
         >
-          <RLButton variant="ghost" color="neutral" icon="general:location" to="https://en.wikipedia.org/wiki/Curitiba">Curitiba, Brazil</RLButton>
+          <RLButton variant="ghost" color="neutral" icon="material-symbols:location-on" to="https://en.wikipedia.org/wiki/Curitiba">Curitiba, Brazil</RLButton>
         </RLLayoutBox>
         <RLLayoutBox
           direction="horizontal"
@@ -77,7 +77,7 @@ const romanianProgress = ref(25)
             gap="md"
             align-items="center"
         >
-          <RLIcon name="general:about" size="md" color="primary-500"/>
+          <RLIcon name="material-symbols:article-person"/>
           <h5 class="text-white">About Me</h5>
         </RLLayoutBox>
         <RLSeparator/>
@@ -98,7 +98,7 @@ const romanianProgress = ref(25)
             gap="md"
             align-items="center"
         >
-          <RLIcon name="general:language" size="md" color="primary-500"/>
+          <RLIcon name="material-symbols:translate"/>
           <h5 class="text-white">Languages</h5>
         </RLLayoutBox>
         <RLSeparator/>
@@ -178,7 +178,7 @@ const romanianProgress = ref(25)
             gap="md"
             align-items="center"
         >
-          <RLIcon name="general:contact" size="md" color="primary-500"/>
+          <RLIcon name="material-symbols:contact-page"/>
           <h5 class="text-white">Contact</h5>
         </RLLayoutBox>
         <RLSeparator/>
@@ -187,7 +187,7 @@ const romanianProgress = ref(25)
           gap="md"
           align-items="center"
         >
-          <RLIcon name="general:mail" size="md"/>
+          <RLIcon name="material-symbols:mail"/>
           <RLLayoutBox
             direction="vertical"
             gap="sm"
@@ -201,7 +201,7 @@ const romanianProgress = ref(25)
             gap="md"
             align-items="center"
         >
-          <RLIcon name="general:phone" size="md"/>
+          <RLIcon name="material-symbols:phone-enabled"/>
           <RLLayoutBox
               direction="vertical"
               gap="sm"
@@ -232,7 +232,7 @@ const romanianProgress = ref(25)
             gap="md"
             align-items="center"
           >
-            <RLIcon name="general:user" size="md" color=""/>
+            <RLIcon name="material-symbols:workspaces"/>
             <h2 class="text-white">Projects</h2>
           </RLLayoutBox>
           <RLSeparator/>
@@ -283,7 +283,7 @@ const romanianProgress = ref(25)
               gap="md"
               align-items="center"
           >
-            <RLIcon name="general:user" size="md" color=""/>
+            <RLIcon name="material-symbols:person-play"/>
             <h2 class="text-white">Skills</h2>
           </RLLayoutBox>
           <RLSeparator/>
@@ -319,7 +319,7 @@ const romanianProgress = ref(25)
               gap="md"
               align-items="center"
           >
-            <RLIcon name="general:wrench" size="md" color=""/>
+            <RLIcon name="material-symbols:handyman"/>
             <h2 class="text-white">Technologies</h2>
           </RLLayoutBox>
           <RLSeparator/>
@@ -471,7 +471,7 @@ const romanianProgress = ref(25)
               gap="md"
               align-items="center"
           >
-            <RLIcon name="general:education" size="md" color=""/>
+            <RLIcon name="material-symbols:school"/>
             <h2 class="text-white">Education</h2>
           </RLLayoutBox>
           <RLSeparator/>
@@ -513,7 +513,7 @@ const romanianProgress = ref(25)
               gap="md"
               align-items="center"
           >
-            <RLIcon name="general:certification" size="md" color=""/>
+            <RLIcon name="material-symbols:workspace-premium"/>
             <h2 class="text-white">Certifications</h2>
           </RLLayoutBox>
           <RLSeparator/>
@@ -535,7 +535,7 @@ const romanianProgress = ref(25)
               gap="md"
               align-items="center"
           >
-            <RLIcon name="general:job" size="md" color=""/>
+            <RLIcon name="material-symbols:work"/>
             <h2 class="text-white">Experience</h2>
           </RLLayoutBox>
           <RLSeparator/>

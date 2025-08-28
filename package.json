@@ -16,6 +16,7 @@
     "@vercel/blob": "^1.1.1",
     "better-sqlite3": "^12.2.0",
     "nuxt": "^4.0.3",
+    "sharp": "^0.34.3",
     "typescript": "^5.9.2",
     "vue": "^3.5.20",
     "vue-router": "^4.5.1"
