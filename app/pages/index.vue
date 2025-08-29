@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import RLLayoutBox from "~/components/temp/RLLayoutBox.vue";
+import RLCookieBanner from "~/components/temp/RLCookieBanner.vue";
 
 useHead({
   title: 'me.home',

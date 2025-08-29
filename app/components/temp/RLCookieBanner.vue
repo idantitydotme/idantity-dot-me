@@ -37,14 +37,14 @@ const hideBanner = () => {
     role="dialog"
     aria-live="polite"
     aria-label="Cookie Consent"
-    class="max-w-[1440px] bottom-4 -translate-x-1/2 left-1/2 z-50 bg-primary-600"
+    class="max-w-[1440px] bottom-4 -translate-x-1/2 left-1/2 z-50 bg-primary-800 border-1 border-primary-500"
   >
     <RLLayoutBox
       direction="horizontal"
       gap="lg"
       align-items="center"
       justify-content="between"
-      class="max-w-[1280px] w-full"
+      class="max-w-[1440px] w-full"
     >
       <span class="text-sm text-center">
         This website uses cookies to ensure to enhance your browsing experience. By continuing to use our site, you agree to our
